@@ -1,0 +1,31 @@
+/* Ensure elements fit within the meta box */
+#aicc_meta_box * {
+    box-sizing: border-box;
+}
+
+/* Style the language dropdown */
+#aicc_language {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Style the prompt textarea */
+#aicc_prompt {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Style the result area */
+#aicc_result textarea {
+    width: 100%;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+}
+
+#aicc_result p {
+    margin: 0 0 5px;
+}
+
+#aicc_result {
+    margin-top: 10px;
+}
